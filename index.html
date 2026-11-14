@@ -1,0 +1,713 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>sxanghai — Graphic Designer • Video Editor • Photographer</title>
+  <meta name="description" content="Portfolio of sxanghai, a multidisciplinary creative studio in Phnom Penh City specializing in Graphic Design, Video Editing, and Photography." />
+  <meta name="author" content="sxanghai" />
+
+  <!-- Open Graph / Meta -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="sxanghai — Graphic Designer • Video Editor • Photographer" />
+  <meta property="og:description" content="Turning ideas into visuals that connect. Brand identity, publication design, cinematic video editing, and photography based in Phnom Penh." />
+  <meta property="og:locale" content="en_US" />
+
+  <!-- Google Fonts Preconnect & Styles -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Syne:wght@500;600;700;800&display=swap" rel="stylesheet" />
+
+  <!-- Favicon / Brand Icon -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%2309090b'/><text x='50' y='65' font-family='sans-serif' font-weight='800' font-size='50' fill='%23f7f7f5' text-anchor='middle'>S</text></svg>" type="image/svg+xml" />
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <!-- ==========================================================================
+       Sticky Site Header & Navigation
+       ========================================================================== -->
+  <header class="site-header" id="site-header">
+    <div class="container header-inner">
+      <div class="logo-group">
+        <a href="#hero" class="logo-text" aria-label="sxanghai homepage">
+          sxanghai<span class="logo-dot"></span>
+        </a>
+        <span class="location-badge">Phnom Penh</span>
+      </div>
+
+      <!-- Desktop Navigation -->
+      <nav class="nav-desktop" aria-label="Main Navigation">
+        <a href="#work" class="nav-link">Work</a>
+        <a href="#videos" class="nav-link">Videos</a>
+        <a href="#photography" class="nav-link">Photography</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#services" class="nav-link">Services</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+
+      <!-- Header Actions -->
+      <div class="header-actions">
+        <a href="admin.html" class="btn btn-secondary btn-header" style="font-size: 0.8125rem; padding: 0.5rem 0.875rem;" title="Studio Manager: Upload & Drag-to-Reorder">
+          Studio ⚙️
+        </a>
+        <a href="#contact" class="btn btn-primary btn-header">
+          Let’s Talk
+          <span class="btn-icon-wrapper">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+              <path d="M5 12h14M12 5l7 7-7 7"/>
+            </svg>
+          </span>
+        </a>
+
+        <!-- Mobile Menu Toggle Button -->
+        <button class="menu-toggle" aria-expanded="false" aria-label="Open navigation menu" aria-controls="mobile-drawer">
+          <span class="burger-line"></span>
+          <span class="burger-line"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer Backdrop & Menu -->
+  <div class="drawer-backdrop" aria-hidden="true"></div>
+  <aside class="mobile-drawer" id="mobile-drawer" aria-label="Mobile Navigation Drawer">
+    <div class="mobile-drawer-top">
+      <div class="mono-label" style="margin-bottom: 2rem;">NAVIGATION</div>
+      <ul class="mobile-nav-list">
+        <li><a href="#work" class="mobile-nav-link">Work</a></li>
+        <li><a href="#videos" class="mobile-nav-link">Videos</a></li>
+        <li><a href="#photography" class="mobile-nav-link">Photography</a></li>
+        <li><a href="#about" class="mobile-nav-link">About</a></li>
+        <li><a href="#services" class="mobile-nav-link">Services</a></li>
+        <li><a href="#contact" class="mobile-nav-link">Contact</a></li>
+        <li><a href="admin.html" class="mobile-nav-link" style="color: var(--text-muted); font-size: 1.25rem;">Studio Manager ⚙️</a></li>
+      </ul>
+    </div>
+    <div class="drawer-footer">
+      <div class="mono-label">STUDIO LOCATION</div>
+      <p style="font-size: 0.9375rem; color: var(--text-primary); font-weight: 600;">Phnom Penh City, Cambodia</p>
+      <a href="#contact" class="btn btn-primary" style="width: 100%;">Let’s Talk</a>
+    </div>
+  </aside>
+
+  <main id="main-content">
+
+    <!-- ==========================================================================
+         Hero Section
+         ========================================================================== -->
+    <section class="section hero" id="hero" aria-labelledby="hero-title">
+      <div class="container">
+        <div class="hero-content">
+          <!-- Small Intro Eyebrow -->
+          <div class="hero-role-pill">
+            <span class="hero-role-text">Graphic Designer • Video Editor • Photographer</span>
+          </div>
+
+          <!-- Main Headline -->
+          <h1 class="hero-headline" id="hero-title">
+            Turning ideas into visuals that connect.
+          </h1>
+
+          <!-- Supporting Text -->
+          <p class="hero-supporting">
+            I create thoughtful designs, compelling videos, and photography that brings brands and stories to life. Based in Phnom Penh City.
+          </p>
+
+          <!-- Buttons -->
+          <div class="hero-actions">
+            <a href="#work" class="btn btn-primary">
+              Explore My Work
+              <span class="btn-icon-wrapper">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                  <path d="M12 5v14M5 12l7 7 7-7"/>
+                </svg>
+              </span>
+            </a>
+            <a href="#contact" class="btn btn-secondary">
+              Let’s Collaborate
+            </a>
+          </div>
+        </div>
+
+        <!-- Curated Visual Composition with breathing room -->
+        <div class="hero-visual">
+          <div class="hero-composition-wrapper">
+            <img 
+              src="https://images.unsplash.com/photo-1600132806370-bf17e65e942f?q=80&w=1600&auto=format&fit=crop" 
+              alt="Curated graphic design showcase by sxanghai" 
+              class="hero-image"
+              loading="eager"
+              onerror="this.onerror=null; this.src='assets/placeholder-work.svg';"
+            />
+            <div class="hero-caption-card">
+              <div class="hero-caption-meta">
+                <span class="hero-caption-title">Luminary Identity &amp; Print System</span>
+                <span class="hero-caption-sub">Featured Graphic Design • 2026 Collection</span>
+              </div>
+              <a href="#work" class="btn btn-secondary" style="padding: 0.5rem 1rem; font-size: 0.8125rem;">
+                View Case
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         Selected Work Section (Category Filtering & Project Grid)
+         ========================================================================== -->
+    <section class="section" id="work" aria-labelledby="work-title">
+      <div class="container">
+        <header class="section-header">
+          <span class="section-tag">Portfolio Archive</span>
+          <h2 class="section-title" id="work-title">Selected Work</h2>
+          <p class="section-subtitle">
+            A curated selection of visual identities, editorial publications, motion pieces, and photography created with disciplined typography and deliberate restraint.
+          </p>
+        </header>
+
+        <!-- Category Filters -->
+        <div class="work-controls" role="toolbar" aria-label="Project categories">
+          <div class="filter-group" role="tablist">
+            <button class="filter-btn active" data-filter="All" role="tab" aria-selected="true">
+              All <span class="filter-count" id="count-all">(8)</span>
+            </button>
+            <button class="filter-btn" data-filter="Graphic Design" role="tab" aria-selected="false">
+              Graphic Design <span class="filter-count" id="count-design">(4)</span>
+            </button>
+            <button class="filter-btn" data-filter="Video Editing" role="tab" aria-selected="false">
+              Video Editing <span class="filter-count" id="count-video">(2)</span>
+            </button>
+            <button class="filter-btn" data-filter="Photography" role="tab" aria-selected="false">
+              Photography <span class="filter-count" id="count-photo">(2)</span>
+            </button>
+          </div>
+
+          <span class="mono-label" style="display: none; @media(min-width: 600px){display: inline;}">
+            CLICK ANY ENTRY FOR CASE STUDY
+          </span>
+        </div>
+
+        <!-- Project Cards Grid -->
+        <div class="projects-grid" id="projects-grid" aria-live="polite">
+          <!-- Populated dynamically via js/main.js & js/data.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         Video Showcase Section (Showreel & Click-to-Play Video Modal)
+         ========================================================================== -->
+    <section class="section video-section" id="videos" aria-labelledby="videos-title">
+      <div class="container">
+        <header class="section-header">
+          <span class="section-tag">Motion &amp; Pacing</span>
+          <h2 class="section-title" id="videos-title">Video Showcase</h2>
+          <p class="section-subtitle">
+            Rhythmic cuts, documentary pacing, and cinematic color grades that transform raw footage into compelling brand narratives.
+          </p>
+        </header>
+
+        <!-- Featured Showreel Hero Card -->
+        <div class="showreel-hero-card" id="showreel-trigger" role="button" tabindex="0" aria-label="Play 2026 Creative Showreel">
+          <div class="showreel-poster-wrapper">
+            <img 
+              src="https://images.unsplash.com/photo-1485846234645-a62644f84728?q=80&w=1600&auto=format&fit=crop" 
+              alt="2026 Showreel Poster" 
+              class="showreel-poster"
+              loading="lazy"
+              onerror="this.onerror=null; this.src='assets/placeholder-video.svg';"
+            />
+            <div class="showreel-overlay">
+              <div class="showreel-top-bar">
+                <span class="showreel-pill">Featured Showreel</span>
+                <span class="showreel-pill">01:45 • 4K</span>
+              </div>
+
+              <!-- Big Center Play Button -->
+              <div class="showreel-center-play" aria-hidden="true">
+                <svg width="34" height="34" viewBox="0 0 24 24" fill="currentColor">
+                  <polygon points="6 3 20 12 6 21 6 3"></polygon>
+                </svg>
+              </div>
+
+              <div class="showreel-bottom-info">
+                <h3 class="showreel-title">2026 Creative &amp; Motion Showreel</h3>
+                <p class="showreel-desc">
+                  A curated 90-second montage blending brand commercial cuts, kinetic typography, dynamic social edits, and documentary storytelling.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Secondary Video Cards Grid -->
+        <div class="videos-subgrid" id="videos-subgrid">
+          <!-- Populated dynamically via js/main.js & js/data.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         Photography Gallery & Lightbox
+         ========================================================================== -->
+    <section class="section" id="photography" aria-labelledby="photo-title">
+      <div class="container">
+        <header class="section-header">
+          <span class="section-tag">Light &amp; Form</span>
+          <h2 class="section-title" id="photo-title">Photography</h2>
+          <p class="section-subtitle">
+            Clean architectural studies, minimalist product still life, and atmospheric scenes around Phnom Penh City. Click any image to view in full resolution.
+          </p>
+        </header>
+
+        <!-- Balanced Portrait & Landscape Photo Grid -->
+        <div class="photo-grid" id="photo-grid">
+          <!-- Populated dynamically via js/main.js & js/data.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         About Me Section
+         ========================================================================== -->
+    <section class="section" id="about" style="background-color: var(--bg-card); border-block: 1px solid var(--border-light);" aria-labelledby="about-title">
+      <div class="container">
+        <header class="section-header">
+          <span class="section-tag">Designer Profile</span>
+          <h2 class="section-title" id="about-title">About Me</h2>
+        </header>
+
+        <div class="about-grid">
+          <!-- Portrait Frame -->
+          <div class="about-portrait-card">
+            <img 
+              src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=1000&auto=format&fit=crop" 
+              alt="sxanghai portrait placeholder" 
+              class="about-portrait-img"
+              loading="lazy"
+              onerror="this.onerror=null; this.src='assets/portrait-placeholder.svg';"
+            />
+            <div class="about-portrait-caption">
+              <div>
+                <div class="about-portrait-name">sxanghai</div>
+                <div class="about-portrait-loc">Phnom Penh City, Cambodia</div>
+              </div>
+              <span class="badge">Open for Inquiries</span>
+            </div>
+          </div>
+
+          <!-- Editorial Introduction -->
+          <div class="about-text-content">
+            <h3 class="about-headline">
+              Visual craft grounded in intention, composition, and storytelling.
+            </h3>
+            
+            <p class="about-lead">
+              I am a multidisciplinary visual creator based in Phnom Penh City, specializing in Graphic Design as my primary focus, with dedicated practice in cinematic Video Editing and Photography.
+            </p>
+
+            <p class="about-body">
+              My creative philosophy centers on restraint and clarity. Whether shaping a brand’s visual identity, pacing a narrative cut for a video, or framing an architectural space through the lens, I look for the core idea and strip away the superfluous. Every layout, color choice, and cut serves to strengthen the connection between the story and the audience.
+            </p>
+
+            <!-- 4 Core Skills / Principles Grid -->
+            <div class="principles-grid">
+              <div class="principle-card">
+                <span class="mono-label">PRINCIPLE 01</span>
+                <h4 class="principle-title">Visual Communication</h4>
+                <p class="principle-desc">
+                  Designing with hierarchy, purpose, and deliberate typographic rhythm so every message is understood instantly.
+                </p>
+              </div>
+
+              <div class="principle-card">
+                <span class="mono-label">PRINCIPLE 02</span>
+                <h4 class="principle-title">Storytelling &amp; Pacing</h4>
+                <p class="principle-desc">
+                  Structuring video sequences and brand narratives with emotional resonance, whether in 15 seconds or a long-form cut.
+                </p>
+              </div>
+
+              <div class="principle-card">
+                <span class="mono-label">PRINCIPLE 03</span>
+                <h4 class="principle-title">Composition &amp; Form</h4>
+                <p class="principle-desc">
+                  Employing balanced proportions, intentional negative space, and architectural balance across digital and physical mediums.
+                </p>
+              </div>
+
+              <div class="principle-card">
+                <span class="mono-label">PRINCIPLE 04</span>
+                <h4 class="principle-title">Attention to Detail</h4>
+                <p class="principle-desc">
+                  Meticulous focus on color grading fidelity, print production tolerances, typography kerning, and pixel-level precision.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         Services Section (3 Architectural Columns)
+         ========================================================================== -->
+    <section class="section" id="services" aria-labelledby="services-title">
+      <div class="container">
+        <header class="section-header">
+          <span class="section-tag">Capabilities &amp; Scope</span>
+          <h2 class="section-title" id="services-title">Services</h2>
+          <p class="section-subtitle">
+            Focused creative capabilities tailored to brands, businesses, and cultural projects looking for high-caliber visual execution.
+          </p>
+        </header>
+
+        <div class="services-grid">
+          <!-- Column 1: Graphic Design (Main Focus) -->
+          <div class="service-column">
+            <div class="service-col-top">
+              <div class="service-header-row">
+                <span class="service-number">01</span>
+                <span class="service-badge main-focus">Main Focus</span>
+              </div>
+              <h3 class="service-title">Graphic Design</h3>
+              <p class="service-desc">
+                Intentional visual identities, marketing collateral, and publication design built to endure and communicate with clarity.
+              </p>
+            </div>
+            <div class="service-deliverables">
+              <span class="deliverables-heading">Deliverables</span>
+              <ul style="display: flex; flex-direction: column; gap: 0.625rem;">
+                <li class="deliverable-item"><span class="deliverable-dot"></span> Brand Identity &amp; Logo Systems</li>
+                <li class="deliverable-item"><span class="deliverable-dot"></span> Marketing Campaigns &amp; Posters</li>
+                <li class="deliverable-item"><span class="deliverable-dot"></span> Social Media Content Design</li>
+                <li class="deliverable-item"><span class="deliverable-dot"></span> Editorial, Books &amp; Print Materials</li>
+                <li class="deliverable-item"><span class="deliverable-dot"></span> Packaging &amp; Label Architecture</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Column 2: Video Editing -->
+          <div class="service-column">
+            <div class="service-col-top">
+              <div class="service-header-row">
+                <span class="service-number">02</span>
+                <span class="service-badge">Motion &amp; Cut</span>
+              </div>
+              <h3 class="service-title">Video Editing</h3>
+              <p class="service-desc">
+                Paced, narrative-driven editing and color grading that transforms raw footage into compelling brand stories and high-impact social content.
+              </p>
+            </div>
+            <div class="service-deliverables">
+              <span class="deliverables-heading">Deliverables</span>
+              <ul style="display: flex; flex-direction: column; gap: 0.625rem;">
+                <li class="deliverable-item"><span class="deliverable-dot"></span> Brand Promotional Videos</li>
+                <li class="deliverable-item"><span class="deliverable-dot"></span> High-Retention Social Content</li>
+                <li class="deliverable-item"><span class="deliverable-dot"></span> Event Highlights &amp; Documentaries</li>
+                <li class="deliverable-item"><span class="deliverable-dot"></span> Cinematic Color Grading (LUTs)</li>
+                <li class="deliverable-item"><span class="deliverable-dot"></span> Sound Design &amp; Audio Synchronization</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Column 3: Photography -->
+          <div class="service-column">
+            <div class="service-col-top">
+              <div class="service-header-row">
+                <span class="service-number">03</span>
+                <span class="service-badge">Visual Capture</span>
+              </div>
+              <h3 class="service-title">Photography</h3>
+              <p class="service-desc">
+                Clean, atmospheric imagery highlighting the honest beauty of products, architectural spaces, and authentic moments.
+              </p>
+            </div>
+            <div class="service-deliverables">
+              <span class="deliverables-heading">Deliverables</span>
+              <ul style="display: flex; flex-direction: column; gap: 0.625rem;">
+                <li class="deliverable-item"><span class="deliverable-dot"></span> Commercial Product Photography</li>
+                <li class="deliverable-item"><span class="deliverable-dot"></span> Architectural &amp; Interior Documentation</li>
+                <li class="deliverable-item"><span class="deliverable-dot"></span> Lifestyle &amp; Brand Imagery</li>
+                <li class="deliverable-item"><span class="deliverable-dot"></span> Event &amp; Cultural Coverage</li>
+                <li class="deliverable-item"><span class="deliverable-dot"></span> High-End Retouching &amp; Color Grading</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         Contact Section
+         ========================================================================== -->
+    <section class="section contact-section" id="contact" aria-labelledby="contact-title">
+      <div class="container">
+        <div class="contact-layout">
+          <!-- Left Column: Information & Direct Channels -->
+          <div class="contact-info">
+            <div>
+              <span class="section-tag">Start a Dialogue</span>
+              <h2 class="contact-headline" id="contact-title">Have a project in mind?</h2>
+              <p class="contact-intro">
+                I’m always open to discussing brand identities, publication design, video editing projects, or photography commissions. Let's create work that resonates.
+              </p>
+            </div>
+
+            <div class="contact-action-cards">
+              <!-- Email Card with Copy Feature -->
+              <div class="contact-card">
+                <div>
+                  <span class="contact-card-label">Direct Email</span>
+                  <div class="contact-card-value">sxanghai</div>
+                  <span class="mono-label" style="font-size: 0.75rem; color: var(--text-muted);">sxanghai@example.com</span>
+                </div>
+                <div style="display: flex; gap: 0.5rem;">
+                  <button type="button" class="btn btn-secondary" id="copy-email-btn" title="Copy email address" style="padding: 0.5rem 0.875rem; font-size: 0.8125rem;">
+                    Copy Email
+                  </button>
+                  <a href="mailto:sxanghai@example.com" class="btn btn-primary" style="padding: 0.5rem 0.875rem; font-size: 0.8125rem;">
+                    Send Mail
+                  </a>
+                </div>
+              </div>
+
+              <!-- Location & Availability Card -->
+              <div class="contact-card">
+                <div>
+                  <span class="contact-card-label">Studio Base</span>
+                  <div class="contact-card-value">Phnom Penh City</div>
+                  <span class="mono-label" style="font-size: 0.75rem; color: var(--text-muted);">Cambodia (UTC+7) • Local &amp; Remote</span>
+                </div>
+                <span class="badge badge-featured">Available Now</span>
+              </div>
+            </div>
+
+            <!-- Social Links: Behance, Instagram, Facebook, YouTube, Telegram -->
+            <div>
+              <div class="mono-label" style="margin-bottom: 0.75rem;">CONNECTED PLATFORMS</div>
+              <div class="social-links-grid">
+                <!-- Behance -->
+                <a href="https://www.behance.net/sxanghai" target="_blank" rel="noopener noreferrer" class="social-pill" aria-label="Behance profile">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M8.228 15.01c.412 0 .782-.05 1.11-.15.328-.1.603-.255.823-.465.22-.21.385-.48.495-.81.11-.33.165-.735.165-1.215 0-.585-.105-1.05-.315-1.395-.21-.345-.555-.585-1.035-.72.33-.12.585-.315.765-.585.18-.27.27-.6.27-.99 0-.42-.075-.765-.225-1.035-.15-.27-.36-.48-.63-.63-.27-.15-.585-.255-.945-.315-.36-.06-.75-.09-1.17-.09H2.868v8.484h5.36zm-2.94-6.42h2.205c.42 0 .735.075.945.225.21.15.315.405.315.765 0 .21-.045.39-.135.54-.09.15-.21.255-.36.33-.15.075-.33.12-.54.135-.21.015-.435.022-.675.022H5.288v-2.017zm0 3.39h2.37c.27 0 .51.03.72.09.21.06.39.15.54.27.15.12.255.285.315.495.06.21.09.465.09.765 0 .42-.12.75-.36.99-.24.24-.615.36-1.125.36H5.288v-2.97zm11.789-2.085c-.39 0-.75.06-1.08.18-.33.12-.615.3-.855.54-.24.24-.42.54-.54.9-.12.36-.18.78-.18 1.26h5.37c-.03-.48-.12-.885-.27-1.215-.15-.33-.345-.6-.585-.81-.24-.21-.525-.36-.855-.45-.33-.09-.69-.135-1.08-.135zm-.045-2.025c.87 0 1.635.15 2.295.45.66.3 1.2 1.05 1.62 1.62.42.57.63 1.635.63 2.595 0 .21-.015.42-.045.63h-7.65c.03.54.15.99.36 1.35.21.36.48.645.81.855.33.21.705.345 1.125.405.42.06.84.09 1.26.09.69 0 1.32-.12 1.89-.36.57-.24.975-.585 1.215-1.035l1.83 1.11c-.48.78-1.14 1.395-1.98 1.845-.84.45-1.89.675-3.15.675-.96 0-1.83-.15-2.61-.45-.78-.3-1.44-.735-1.98-1.305-.54-.57-.945-1.26-1.215-2.07-.27-.81-.405-1.71-.405-2.7 0-.96.15-1.845.45-2.655.3-.81.72-1.5 1.26-2.07.54-.57 1.2-1.005 1.98-1.305.78-.3 1.635-.45 2.565-.45zm-.51-2.43h4.425v1.275h-4.425V5.46z"/>
+                  </svg>
+                  Behance
+                </a>
+
+                <!-- Instagram -->
+                <a href="https://www.instagram.com/sxanghai" target="_blank" rel="noopener noreferrer" class="social-pill" aria-label="Instagram profile">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                    <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                    <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                  </svg>
+                  Instagram
+                </a>
+
+                <!-- Facebook -->
+                <a href="https://www.facebook.com/sxanghai" target="_blank" rel="noopener noreferrer" class="social-pill" aria-label="Facebook profile">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+                  </svg>
+                  Facebook
+                </a>
+
+                <!-- YouTube -->
+                <a href="https://www.youtube.com/@sxanghai" target="_blank" rel="noopener noreferrer" class="social-pill" aria-label="YouTube channel">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+                  </svg>
+                  YouTube
+                </a>
+
+                <!-- Telegram -->
+                <a href="https://t.me/sxanghai" target="_blank" rel="noopener noreferrer" class="social-pill" aria-label="Telegram contact">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.562 8.161c-.18.89-1.025 4.887-1.455 6.945-.182.871-.532 1.162-.871 1.19-.74.06-1.3-.49-2.02-.96-.112-.73-1.127-1.08-1.84-1.78-.83-.81.08-1.26.54-1.74.12-.12 2.21-2.02 2.25-2.19.01-.02.01-.1-.05-.15-.06-.05-.15-.03-.22-.02-.1.02-1.68 1.07-4.75 3.14-.45.31-.86.46-1.23.45-.4-.01-1.18-.23-1.76-.41-.71-.23-1.28-.35-1.23-.74.03-.2.3-.41.83-.62 3.26-1.42 5.44-2.35 6.54-2.8 3.12-1.3 3.77-1.53 4.2-.1.09.02.3.08.43.2.11.1.18.23.2.37.03.14.01.29-.02.43z"/>
+                  </svg>
+                  Telegram
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Column: Interactive Contact Form -->
+          <div class="contact-form-card">
+            <h3 style="font-family: var(--font-display); font-size: 1.5rem; font-weight: 700; color: var(--accent-black); margin-bottom: 0.5rem;">
+              Send a Project Brief
+            </h3>
+            <p style="font-size: 0.875rem; color: var(--text-secondary); margin-bottom: 1.5rem;">
+              Fill in your project requirements below. It generates an immediate message with all details directly to sxanghai.
+            </p>
+
+            <form class="contact-form" id="contact-form" novalidate>
+              <div class="form-group">
+                <label for="form-name" class="form-label">Your Name *</label>
+                <input type="text" id="form-name" name="name" class="form-input" placeholder="e.g. Alex Morgan" required />
+              </div>
+
+              <div class="form-group">
+                <label for="form-email" class="form-label">Email Address *</label>
+                <input type="email" id="form-email" name="email" class="form-input" placeholder="alex@company.com" required />
+              </div>
+
+              <div class="form-group">
+                <label for="form-service" class="form-label">Primary Discipline Needed</label>
+                <select id="form-service" name="service" class="form-select">
+                  <option value="Graphic Design">Graphic Design (Branding, Print, Identity)</option>
+                  <option value="Video Editing">Video Editing (Commercial, Social, Color Grading)</option>
+                  <option value="Photography">Photography (Architecture, Product, Lifestyle)</option>
+                  <option value="Comprehensive (Design + Video + Photo)">Comprehensive (Multiple Disciplines)</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="form-message" class="form-label">Project Details &amp; Timeline *</label>
+                <textarea id="form-message" name="message" class="form-textarea" placeholder="Tell me about your brand, goals, scope, and target deadline..." required></textarea>
+              </div>
+
+              <div id="form-status" class="form-status" role="alert"></div>
+
+              <button type="submit" class="btn btn-primary" style="width: 100%;">
+                Send Inquiry
+                <span class="btn-icon-wrapper">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                    <path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z"/>
+                  </svg>
+                </span>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ==========================================================================
+       Minimal Footer
+       ========================================================================== -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-top">
+        <div>
+          <div class="footer-logo">sxanghai</div>
+          <div class="footer-roles">Graphic Designer • Video Editor • Photographer</div>
+        </div>
+        <a href="#hero" class="back-to-top" aria-label="Back to top of page">
+          Back to top
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+            <path d="M12 19V5M5 12l7-7 7 7"/>
+          </svg>
+        </a>
+      </div>
+
+      <div class="footer-bottom">
+        <div>
+          &copy; <span id="current-year">2026</span> sxanghai. All rights reserved.
+        </div>
+        <div>
+          Phnom Penh City, Cambodia
+        </div>
+        <div>
+          <a href="admin.html" style="color: rgba(255, 255, 255, 0.75); text-decoration: underline; text-underline-offset: 3px;">
+            Studio Manager 🔒
+          </a>
+        </div>
+        <div style="opacity: 0.6;">
+          Handcrafted with minimal typography &amp; deliberate restraint.
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ==========================================================================
+       Modals: Project Detail, Video Player, Photography Lightbox
+       ========================================================================== -->
+
+  <!-- 1. Accessible Project Detail Modal -->
+  <div class="modal-overlay" id="project-modal" role="dialog" aria-modal="true" aria-labelledby="modal-project-title">
+    <div class="modal-container">
+      <button class="modal-close-btn" aria-label="Close project modal">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      </button>
+      <div class="project-modal-body" id="project-modal-content">
+        <!-- Rendered dynamically -->
+      </div>
+    </div>
+  </div>
+
+  <!-- 2. Video Player Modal (Click-to-Play, zero autoplay noise) -->
+  <div class="modal-overlay" id="video-modal" role="dialog" aria-modal="true" aria-label="Video player">
+    <div class="modal-container video-modal-container">
+      <button class="modal-close-btn" aria-label="Close video player" style="background-color: rgba(255,255,255,0.2); color: #fff;">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      </button>
+      <div class="video-frame-wrap" id="video-iframe-wrap">
+        <!-- Iframe injected only on click -->
+      </div>
+    </div>
+  </div>
+
+  <!-- 3. Photography Lightbox Modal -->
+  <div class="modal-overlay" id="photo-lightbox" role="dialog" aria-modal="true" aria-label="Image lightbox">
+    <div class="lightbox-container">
+      <button class="modal-close-btn" aria-label="Close lightbox" style="background-color: rgba(255,255,255,0.25); color: #ffffff;">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      </button>
+
+      <!-- Prev / Next Navigation Controls -->
+      <button class="lightbox-nav-btn prev" id="lightbox-prev" aria-label="Previous photograph">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+          <polyline points="15 18 9 12 15 6"></polyline>
+        </svg>
+      </button>
+
+      <button class="lightbox-nav-btn next" id="lightbox-next" aria-label="Next photograph">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+          <polyline points="9 18 15 12 9 6"></polyline>
+        </svg>
+      </button>
+
+      <div class="lightbox-img-wrapper">
+        <img src="" alt="" id="lightbox-img" class="lightbox-img" />
+      </div>
+
+      <div class="lightbox-info">
+        <div class="lightbox-title" id="lightbox-title"></div>
+        <div class="lightbox-meta" id="lightbox-meta"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Notification (Email Copied) -->
+  <div class="toast-notice" id="toast-notice" role="status" aria-live="polite">
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+      <polyline points="20 6 9 17 4 12"></polyline>
+    </svg>
+    <span id="toast-text">Email copied to clipboard!</span>
+  </div>
+
+  <!-- Scripts -->
+  <script src="js/data.js"></script>
+  <script src="js/main.js"></script>
+  <script>
+    // Ensure current year is always updated
+    document.getElementById('current-year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

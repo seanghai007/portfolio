@@ -1,0 +1,17 @@
+<svg width="1000" height="1250" viewBox="0 0 1000 1250" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1000" height="1250" fill="#EAEAE6"/>
+  <!-- Focus brackets -->
+  <path d="M 80 120 L 80 80 L 120 80" stroke="#18181B" stroke-width="3" fill="none"/>
+  <path d="M 920 120 L 920 80 L 880 80" stroke="#18181B" stroke-width="3" fill="none"/>
+  <path d="M 80 1130 L 80 1170 L 120 1170" stroke="#18181B" stroke-width="3" fill="none"/>
+  <path d="M 920 1130 L 920 1170 L 880 1170" stroke="#18181B" stroke-width="3" fill="none"/>
+  
+  <!-- Architectural abstraction -->
+  <rect x="250" y="325" width="500" height="600" fill="#D8D8D2" stroke="#18181B" stroke-width="2"/>
+  <path d="M 250 325 L 750 925" stroke="#18181B" stroke-width="2"/>
+  <path d="M 250 925 L 750 325" stroke="#18181B" stroke-width="2"/>
+  <circle cx="500" cy="625" r="90" fill="#18181B"/>
+  
+  <text x="100" y="1120" font-family="'JetBrains Mono', monospace" font-size="14" fill="#52525B" letter-spacing="3">PHOTOGRAPHY // LIGHT, FORM &amp; MONOCHROME</text>
+  <text x="100" y="1145" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="24" fill="#18181B">PHNOM PENH ARCHITECTURE &amp; STILL LIFE</text>
+</svg>

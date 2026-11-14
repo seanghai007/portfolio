@@ -1,0 +1,13 @@
+<svg width="1000" height="1250" viewBox="0 0 1000 1250" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1000" height="1250" fill="#E4E4DE"/>
+  <circle cx="500" cy="460" r="180" fill="#18181B"/>
+  <path d="M 220 950 C 220 720, 340 680, 500 680 C 660 680, 780 720, 780 950 Z" fill="#18181B"/>
+  <circle cx="500" cy="460" r="170" fill="#27272A"/>
+  
+  <!-- Subtle lighting frame -->
+  <rect x="80" y="80" width="840" height="1090" stroke="#71717A" stroke-width="1.5" stroke-dasharray="6 6"/>
+  
+  <text x="500" y="1050" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="28" fill="#18181B" letter-spacing="1">SXANGHAI</text>
+  <text x="500" y="1085" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="14" fill="#52525B" letter-spacing="2">GRAPHIC DESIGNER • VIDEO EDITOR • PHOTOGRAPHER</text>
+  <text x="500" y="1115" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="12" fill="#71717A">PHNOM PENH CITY, CAMBODIA</text>
+</svg>

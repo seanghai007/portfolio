@@ -1,0 +1,22 @@
+<svg width="1200" height="750" viewBox="0 0 1200 750" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="750" fill="#F0F0EC"/>
+  <!-- Subtle Grid Lines -->
+  <line x1="100" y1="0" x2="100" y2="750" stroke="#E4E4DF" stroke-width="1"/>
+  <line x1="300" y1="0" x2="300" y2="750" stroke="#E4E4DF" stroke-width="1"/>
+  <line x1="600" y1="0" x2="600" y2="750" stroke="#E4E4DF" stroke-width="1"/>
+  <line x1="900" y1="0" x2="900" y2="750" stroke="#E4E4DF" stroke-width="1"/>
+  <line x1="1100" y1="0" x2="1100" y2="750" stroke="#E4E4DF" stroke-width="1"/>
+  <line x1="0" y1="150" x2="1200" y2="150" stroke="#E4E4DF" stroke-width="1"/>
+  <line x1="0" y1="375" x2="1200" y2="375" stroke="#E4E4DF" stroke-width="1"/>
+  <line x1="0" y1="600" x2="1200" y2="600" stroke="#E4E4DF" stroke-width="1"/>
+  
+  <!-- Minimalist Graphic Elements -->
+  <rect x="300" y="150" width="600" height="450" fill="#FFFFFF" stroke="#18181B" stroke-width="2"/>
+  <circle cx="600" cy="375" r="120" fill="#18181B"/>
+  <line x1="420" y1="375" x2="780" y2="375" stroke="#FFFFFF" stroke-width="3"/>
+  <line x1="600" y1="195" x2="600" y2="555" stroke="#FFFFFF" stroke-width="3"/>
+  
+  <text x="340" y="210" font-family="'JetBrains Mono', monospace" font-size="14" fill="#71717A" letter-spacing="3">SXANGHAI STUDIO // 2026</text>
+  <text x="340" y="550" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="28" fill="#18181B">VISUAL IDENTITY &amp; DESIGN</text>
+  <text x="340" y="575" font-family="'JetBrains Mono', monospace" font-size="12" fill="#71717A">PHNOM PENH CITY — FORM, RESTRAINT, PURPOSE</text>
+</svg>
